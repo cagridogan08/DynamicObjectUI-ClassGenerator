@@ -13,7 +13,7 @@
         Height="450"
         Width="800">
     <Window.Resources>
-        <converter:UIElementConverter x:Key="converterTest"></converter:UIElementConverter>
+        <converter:MultiParameterConverter x:Key="converterTest"></converter:MultiParameterConverter>
     </Window.Resources>
     <Grid x:Name="mainGrid">
         <Grid.ColumnDefinitions>

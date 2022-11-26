@@ -8,7 +8,7 @@ using System.Windows.Data;
 
 namespace DynamicViewWithDynamicObject.ExtensiveMethods
 {
-    public class UIElementConverter : IMultiValueConverter
+    public class MultiParameterConverter : IMultiValueConverter
     {
         public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)
         {
